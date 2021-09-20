@@ -7,6 +7,7 @@ function Counter() {
   return (
     <div>
       <p>Counter value: {count}</p>
+      {/* <p data-testid="counter-label">Counter value: {count}</p> */}
       <div>
         <button onClick={decrement}>-</button>
         <button onClick={increment}>+</button>

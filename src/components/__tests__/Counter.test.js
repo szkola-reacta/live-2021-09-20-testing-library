@@ -8,6 +8,7 @@ describe('Counter tests', () => {
     // sreen.debug();
 
     let message = screen.getByText(/counter value: 0/i);
+    // let message = screen.getByTestId("counter-label");
     expect(message).toBeInTheDocument();
 
     // const incrementButton = screen.getByRole('button', {  name: /\+/i} );
